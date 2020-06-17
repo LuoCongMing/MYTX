@@ -1,0 +1,86 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManager (6.1.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.15)
+  - MJRefresh (3.1.16)
+  - QBImagePickerController (3.4.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RongCloudIM/IMKit (2.10.6):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.10.6)
+  - SWOAuthCode (0.4.2):
+    - Masonry (~> 1.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+  - DZNEmptyDataSet (= 1.8.1)
+  - IQKeyboardManager (= 6.1.1)
+  - Masonry
+  - MBProgressHUD (= 1.0)
+  - MJExtension (= 3.0.15)
+  - MJRefresh (= 3.1.16)
+  - QBImagePickerController
+  - ReactiveCocoa (= 2.5.0)
+  - Realm (= 3.13.1)
+  - RongCloudIM/IMKit (~> 2.10.4)
+  - RongCloudIM/IMLib (~> 2.10.4)
+  - SWOAuthCode
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - QBImagePickerController
+    - ReactiveCocoa
+    - Realm
+    - RongCloudIM
+    - SWOAuthCode
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RongCloudIM: b1768dcb3af90d00ce621f7de4f787285435fbe3
+  SWOAuthCode: fadef6aadf1c64573e841dc32b084cfc4123823d
+
+PODFILE CHECKSUM: fdb7a0dc3607f9b7e8112e128c3bc5c5d5613881
+
+COCOAPODS: 1.9.3

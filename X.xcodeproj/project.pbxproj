@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3859AFC02C4AE8AD15FF163 /* libPods-X.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D0ADC1FA690AB1D1FBB6AA /* libPods-X.a */; };
+		CB353EFB2493274700C159DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353EFA2493274700C159DC /* AppDelegate.m */; };
+		CB353EFE2493274700C159DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353EFD2493274700C159DC /* SceneDelegate.m */; };
+		CB353F042493274700C159DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB353F022493274700C159DC /* Main.storyboard */; };
+		CB353F062493274900C159DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB353F052493274900C159DC /* Assets.xcassets */; };
+		CB353F092493274900C159DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB353F072493274900C159DC /* LaunchScreen.storyboard */; };
+		CB353F0C2493274900C159DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F0B2493274900C159DC /* main.m */; };
+		CB353F222493278600C159DC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F152493278600C159DC /* BaseViewController.m */; };
+		CB353F232493278600C159DC /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F192493278600C159DC /* BaseButton.m */; };
+		CB353F242493278600C159DC /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F1C2493278600C159DC /* LoginVC.m */; };
+		CB353F262493278600C159DC /* LoginContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F212493278600C159DC /* LoginContentView.m */; };
+		CB353F2924934E8F00C159DC /* UIResponder+BizExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F2824934E8F00C159DC /* UIResponder+BizExtension.m */; };
+		CB353F2C24936EAE00C159DC /* CoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F2B24936EAE00C159DC /* CoreManager.m */; };
+		CB353F3124936F1500C159DC /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F2D24936F1400C159DC /* NSDate+Extend.m */; };
+		CB353F3224936F1500C159DC /* NSString+TRHString.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F3024936F1500C159DC /* NSString+TRHString.m */; };
+		CB353F352493704B00C159DC /* CoreManager+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F342493704B00C159DC /* CoreManager+Login.m */; };
+		CB353F382493714600C159DC /* LoginDutyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB353F372493714600C159DC /* LoginDutyVC.m */; };
+		CBD9B7A2249705E400952A6C /* LoginAgeSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7A1249705E400952A6C /* LoginAgeSelectVC.m */; };
+		CBD9B7A42497091600952A6C /* LoginAgeSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD9B7A32497091600952A6C /* LoginAgeSelectView.xib */; };
+		CBD9B7A72497092C00952A6C /* LoginAgeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7A62497092C00952A6C /* LoginAgeSelectView.m */; };
+		CBD9B7AA2497192700952A6C /* JMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7A82497192700952A6C /* JMAlertView.m */; };
+		CBD9B7AD24971F5800952A6C /* RegistInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7AC24971F5800952A6C /* RegistInfoVC.m */; };
+		CBD9B7B02497484300952A6C /* RegistInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7AF2497484300952A6C /* RegistInfoCell.m */; };
+		CBD9B7B32497649D00952A6C /* RegistIconVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7B22497649D00952A6C /* RegistIconVC.m */; };
+		CBD9B7B62498583400952A6C /* RegistAge&sexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7B52498583400952A6C /* RegistAge&sexVC.m */; };
+		CBD9B7B92498656900952A6C /* RegistSexBirthdaySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7B82498656900952A6C /* RegistSexBirthdaySelectView.m */; };
+		CBD9B7BD2498658E00952A6C /* RegistSexBirthdaySelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD9B7BC2498658E00952A6C /* RegistSexBirthdaySelectView.xib */; };
+		CBD9B7C424986D5700952A6C /* PickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7C024986D5700952A6C /* PickerModel.m */; };
+		CBD9B7C524986D5700952A6C /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7C224986D5700952A6C /* PickerView.m */; };
+		CBD9B7C624986D5700952A6C /* City.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBD9B7C324986D5700952A6C /* City.plist */; };
+		CBD9B7C924987A3B00952A6C /* RegistVerifyCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7C824987A3B00952A6C /* RegistVerifyCodeVC.m */; };
+		CBD9B7CC24989BC000952A6C /* RegistResetPassWordsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B7CB24989BC000952A6C /* RegistResetPassWordsVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58034302FE701D8EC947DA72 /* Pods-X.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-X.release.xcconfig"; path = "Target Support Files/Pods-X/Pods-X.release.xcconfig"; sourceTree = "<group>"; };
+		CB353EF62493274700C159DC /* X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = X.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB353EF92493274700C159DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB353EFA2493274700C159DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB353EFC2493274700C159DC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CB353EFD2493274700C159DC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CB353F032493274700C159DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB353F052493274900C159DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB353F082493274900C159DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB353F0A2493274900C159DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB353F0B2493274900C159DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB353F132493278600C159DC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CB353F152493278600C159DC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CB353F162493278600C159DC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CB353F182493278600C159DC /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		CB353F192493278600C159DC /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+		CB353F1C2493278600C159DC /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		CB353F1D2493278600C159DC /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		CB353F202493278600C159DC /* LoginContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginContentView.h; sourceTree = "<group>"; };
+		CB353F212493278600C159DC /* LoginContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginContentView.m; sourceTree = "<group>"; };
+		CB353F2724934E8F00C159DC /* UIResponder+BizExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+BizExtension.h"; sourceTree = "<group>"; };
+		CB353F2824934E8F00C159DC /* UIResponder+BizExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+BizExtension.m"; sourceTree = "<group>"; };
+		CB353F2A24936EAE00C159DC /* CoreManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreManager.h; sourceTree = "<group>"; };
+		CB353F2B24936EAE00C159DC /* CoreManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreManager.m; sourceTree = "<group>"; };
+		CB353F2D24936F1400C159DC /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
+		CB353F2E24936F1400C159DC /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
+		CB353F2F24936F1400C159DC /* NSString+TRHString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TRHString.h"; sourceTree = "<group>"; };
+		CB353F3024936F1500C159DC /* NSString+TRHString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TRHString.m"; sourceTree = "<group>"; };
+		CB353F332493704B00C159DC /* CoreManager+Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreManager+Login.h"; sourceTree = "<group>"; };
+		CB353F342493704B00C159DC /* CoreManager+Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CoreManager+Login.m"; sourceTree = "<group>"; };
+		CB353F362493714600C159DC /* LoginDutyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginDutyVC.h; sourceTree = "<group>"; };
+		CB353F372493714600C159DC /* LoginDutyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginDutyVC.m; sourceTree = "<group>"; };
+		CBD9B7A0249705E400952A6C /* LoginAgeSelectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAgeSelectVC.h; sourceTree = "<group>"; };
+		CBD9B7A1249705E400952A6C /* LoginAgeSelectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAgeSelectVC.m; sourceTree = "<group>"; };
+		CBD9B7A32497091600952A6C /* LoginAgeSelectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginAgeSelectView.xib; sourceTree = "<group>"; };
+		CBD9B7A52497092C00952A6C /* LoginAgeSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAgeSelectView.h; sourceTree = "<group>"; };
+		CBD9B7A62497092C00952A6C /* LoginAgeSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAgeSelectView.m; sourceTree = "<group>"; };
+		CBD9B7A82497192700952A6C /* JMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAlertView.m; sourceTree = "<group>"; };
+		CBD9B7A92497192700952A6C /* JMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAlertView.h; sourceTree = "<group>"; };
+		CBD9B7AB24971F5800952A6C /* RegistInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistInfoVC.h; sourceTree = "<group>"; };
+		CBD9B7AC24971F5800952A6C /* RegistInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistInfoVC.m; sourceTree = "<group>"; };
+		CBD9B7AE2497484300952A6C /* RegistInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistInfoCell.h; sourceTree = "<group>"; };
+		CBD9B7AF2497484300952A6C /* RegistInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistInfoCell.m; sourceTree = "<group>"; };
+		CBD9B7B12497649D00952A6C /* RegistIconVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistIconVC.h; sourceTree = "<group>"; };
+		CBD9B7B22497649D00952A6C /* RegistIconVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistIconVC.m; sourceTree = "<group>"; };
+		CBD9B7B42498583400952A6C /* RegistAge&sexVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RegistAge&sexVC.h"; sourceTree = "<group>"; };
+		CBD9B7B52498583400952A6C /* RegistAge&sexVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RegistAge&sexVC.m"; sourceTree = "<group>"; };
+		CBD9B7B72498656900952A6C /* RegistSexBirthdaySelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistSexBirthdaySelectView.h; sourceTree = "<group>"; };
+		CBD9B7B82498656900952A6C /* RegistSexBirthdaySelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistSexBirthdaySelectView.m; sourceTree = "<group>"; };
+		CBD9B7BC2498658E00952A6C /* RegistSexBirthdaySelectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistSexBirthdaySelectView.xib; sourceTree = "<group>"; };
+		CBD9B7BF24986D5700952A6C /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		CBD9B7C024986D5700952A6C /* PickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerModel.m; sourceTree = "<group>"; };
+		CBD9B7C124986D5700952A6C /* PickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerModel.h; sourceTree = "<group>"; };
+		CBD9B7C224986D5700952A6C /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		CBD9B7C324986D5700952A6C /* City.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+		CBD9B7C724987A3B00952A6C /* RegistVerifyCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistVerifyCodeVC.h; sourceTree = "<group>"; };
+		CBD9B7C824987A3B00952A6C /* RegistVerifyCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistVerifyCodeVC.m; sourceTree = "<group>"; };
+		CBD9B7CA24989BC000952A6C /* RegistResetPassWordsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistResetPassWordsVC.h; sourceTree = "<group>"; };
+		CBD9B7CB24989BC000952A6C /* RegistResetPassWordsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistResetPassWordsVC.m; sourceTree = "<group>"; };
+		D9D0ADC1FA690AB1D1FBB6AA /* libPods-X.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-X.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF055599D1C7838CA0140160 /* Pods-X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-X.debug.xcconfig"; path = "Target Support Files/Pods-X/Pods-X.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB353EF32493274700C159DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3859AFC02C4AE8AD15FF163 /* libPods-X.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2F01D5A18C2F04FB3064BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF055599D1C7838CA0140160 /* Pods-X.debug.xcconfig */,
+				58034302FE701D8EC947DA72 /* Pods-X.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		935136458E2AE2D0364091DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D0ADC1FA690AB1D1FBB6AA /* libPods-X.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB353EED2493274700C159DC = {
+			isa = PBXGroup;
+			children = (
+				CB353EF82493274700C159DC /* X */,
+				CB353EF72493274700C159DC /* Products */,
+				2A2F01D5A18C2F04FB3064BC /* Pods */,
+				935136458E2AE2D0364091DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB353EF72493274700C159DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB353EF62493274700C159DC /* X.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB353EF82493274700C159DC /* X */ = {
+			isa = PBXGroup;
+			children = (
+				CB353F142493278600C159DC /* Common */,
+				CB353F122493278600C159DC /* CoreManager */,
+				CB353F1A2493278600C159DC /* Libs */,
+				CB353F1B2493278600C159DC /* Login */,
+				CB353F132493278600C159DC /* PrefixHeader.pch */,
+				CB353EF92493274700C159DC /* AppDelegate.h */,
+				CB353EFA2493274700C159DC /* AppDelegate.m */,
+				CB353EFC2493274700C159DC /* SceneDelegate.h */,
+				CB353EFD2493274700C159DC /* SceneDelegate.m */,
+				CB353F022493274700C159DC /* Main.storyboard */,
+				CB353F052493274900C159DC /* Assets.xcassets */,
+				CB353F072493274900C159DC /* LaunchScreen.storyboard */,
+				CB353F0A2493274900C159DC /* Info.plist */,
+				CB353F0B2493274900C159DC /* main.m */,
+			);
+			path = X;
+			sourceTree = "<group>";
+		};
+		CB353F122493278600C159DC /* CoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB353F2A24936EAE00C159DC /* CoreManager.h */,
+				CB353F2B24936EAE00C159DC /* CoreManager.m */,
+				CB353F332493704B00C159DC /* CoreManager+Login.h */,
+				CB353F342493704B00C159DC /* CoreManager+Login.m */,
+			);
+			path = CoreManager;
+			sourceTree = "<group>";
+		};
+		CB353F142493278600C159DC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CBD9B7A92497192700952A6C /* JMAlertView.h */,
+				CBD9B7A82497192700952A6C /* JMAlertView.m */,
+				CB353F2724934E8F00C159DC /* UIResponder+BizExtension.h */,
+				CB353F2824934E8F00C159DC /* UIResponder+BizExtension.m */,
+				CB353F2E24936F1400C159DC /* NSDate+Extend.h */,
+				CB353F2D24936F1400C159DC /* NSDate+Extend.m */,
+				CB353F2F24936F1400C159DC /* NSString+TRHString.h */,
+				CB353F3024936F1500C159DC /* NSString+TRHString.m */,
+				CB353F162493278600C159DC /* BaseViewController.h */,
+				CB353F152493278600C159DC /* BaseViewController.m */,
+				CB353F172493278600C159DC /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CB353F172493278600C159DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB353F182493278600C159DC /* BaseButton.h */,
+				CB353F192493278600C159DC /* BaseButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB353F1A2493278600C159DC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CBD9B7BE24986D5700952A6C /* PickerView */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		CB353F1B2493278600C159DC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB353F1D2493278600C159DC /* LoginVC.h */,
+				CB353F1C2493278600C159DC /* LoginVC.m */,
+				CB353F362493714600C159DC /* LoginDutyVC.h */,
+				CB353F372493714600C159DC /* LoginDutyVC.m */,
+				CBD9B7A0249705E400952A6C /* LoginAgeSelectVC.h */,
+				CBD9B7A1249705E400952A6C /* LoginAgeSelectVC.m */,
+				CBD9B7AB24971F5800952A6C /* RegistInfoVC.h */,
+				CBD9B7AC24971F5800952A6C /* RegistInfoVC.m */,
+				CBD9B7B12497649D00952A6C /* RegistIconVC.h */,
+				CBD9B7B22497649D00952A6C /* RegistIconVC.m */,
+				CBD9B7B42498583400952A6C /* RegistAge&sexVC.h */,
+				CBD9B7B52498583400952A6C /* RegistAge&sexVC.m */,
+				CBD9B7C724987A3B00952A6C /* RegistVerifyCodeVC.h */,
+				CBD9B7C824987A3B00952A6C /* RegistVerifyCodeVC.m */,
+				CBD9B7CA24989BC000952A6C /* RegistResetPassWordsVC.h */,
+				CBD9B7CB24989BC000952A6C /* RegistResetPassWordsVC.m */,
+				CB353F1E2493278600C159DC /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CB353F1E2493278600C159DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB353F202493278600C159DC /* LoginContentView.h */,
+				CB353F212493278600C159DC /* LoginContentView.m */,
+				CBD9B7A52497092C00952A6C /* LoginAgeSelectView.h */,
+				CBD9B7A62497092C00952A6C /* LoginAgeSelectView.m */,
+				CBD9B7A32497091600952A6C /* LoginAgeSelectView.xib */,
+				CBD9B7AE2497484300952A6C /* RegistInfoCell.h */,
+				CBD9B7AF2497484300952A6C /* RegistInfoCell.m */,
+				CBD9B7B72498656900952A6C /* RegistSexBirthdaySelectView.h */,
+				CBD9B7B82498656900952A6C /* RegistSexBirthdaySelectView.m */,
+				CBD9B7BC2498658E00952A6C /* RegistSexBirthdaySelectView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBD9B7BE24986D5700952A6C /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CBD9B7BF24986D5700952A6C /* PickerView.h */,
+				CBD9B7C024986D5700952A6C /* PickerModel.m */,
+				CBD9B7C124986D5700952A6C /* PickerModel.h */,
+				CBD9B7C224986D5700952A6C /* PickerView.m */,
+				CBD9B7C324986D5700952A6C /* City.plist */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB353EF52493274700C159DC /* X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB353F0F2493274900C159DC /* Build configuration list for PBXNativeTarget "X" */;
+			buildPhases = (
+				C700290CFB6892B94957C613 /* [CP] Check Pods Manifest.lock */,
+				CB353EF22493274700C159DC /* Sources */,
+				CB353EF32493274700C159DC /* Frameworks */,
+				CB353EF42493274700C159DC /* Resources */,
+				E83D1336D358087E37AE4AD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = X;
+			productName = X;
+			productReference = CB353EF62493274700C159DC /* X.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB353EEE2493274700C159DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = zhou;
+				TargetAttributes = {
+					CB353EF52493274700C159DC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = CB353EF12493274700C159DC /* Build configuration list for PBXProject "X" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB353EED2493274700C159DC;
+			productRefGroup = CB353EF72493274700C159DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB353EF52493274700C159DC /* X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB353EF42493274700C159DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD9B7A42497091600952A6C /* LoginAgeSelectView.xib in Resources */,
+				CBD9B7C624986D5700952A6C /* City.plist in Resources */,
+				CB353F092493274900C159DC /* LaunchScreen.storyboard in Resources */,
+				CB353F062493274900C159DC /* Assets.xcassets in Resources */,
+				CB353F042493274700C159DC /* Main.storyboard in Resources */,
+				CBD9B7BD2498658E00952A6C /* RegistSexBirthdaySelectView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C700290CFB6892B94957C613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-X-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83D1336D358087E37AE4AD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-X/Pods-X-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-X/Pods-X-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-X/Pods-X-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB353EF22493274700C159DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD9B7B32497649D00952A6C /* RegistIconVC.m in Sources */,
+				CB353F3124936F1500C159DC /* NSDate+Extend.m in Sources */,
+				CB353F222493278600C159DC /* BaseViewController.m in Sources */,
+				CBD9B7AA2497192700952A6C /* JMAlertView.m in Sources */,
+				CBD9B7A72497092C00952A6C /* LoginAgeSelectView.m in Sources */,
+				CB353EFB2493274700C159DC /* AppDelegate.m in Sources */,
+				CB353F2924934E8F00C159DC /* UIResponder+BizExtension.m in Sources */,
+				CBD9B7B92498656900952A6C /* RegistSexBirthdaySelectView.m in Sources */,
+				CB353F0C2493274900C159DC /* main.m in Sources */,
+				CB353F262493278600C159DC /* LoginContentView.m in Sources */,
+				CB353F352493704B00C159DC /* CoreManager+Login.m in Sources */,
+				CBD9B7AD24971F5800952A6C /* RegistInfoVC.m in Sources */,
+				CB353F382493714600C159DC /* LoginDutyVC.m in Sources */,
+				CB353F3224936F1500C159DC /* NSString+TRHString.m in Sources */,
+				CB353F232493278600C159DC /* BaseButton.m in Sources */,
+				CBD9B7B62498583400952A6C /* RegistAge&sexVC.m in Sources */,
+				CB353F2C24936EAE00C159DC /* CoreManager.m in Sources */,
+				CBD9B7C424986D5700952A6C /* PickerModel.m in Sources */,
+				CB353F242493278600C159DC /* LoginVC.m in Sources */,
+				CBD9B7CC24989BC000952A6C /* RegistResetPassWordsVC.m in Sources */,
+				CBD9B7C524986D5700952A6C /* PickerView.m in Sources */,
+				CBD9B7B02497484300952A6C /* RegistInfoCell.m in Sources */,
+				CBD9B7A2249705E400952A6C /* LoginAgeSelectVC.m in Sources */,
+				CBD9B7C924987A3B00952A6C /* RegistVerifyCodeVC.m in Sources */,
+				CB353EFE2493274700C159DC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB353F022493274700C159DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB353F032493274700C159DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB353F072493274900C159DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB353F082493274900C159DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB353F0D2493274900C159DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB353F0E2493274900C159DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB353F102493274900C159DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF055599D1C7838CA0140160 /* Pods-X.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/X/PrefixHeader.pch";
+				INFOPLIST_FILE = X/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSC.X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB353F112493274900C159DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58034302FE701D8EC947DA72 /* Pods-X.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/X/PrefixHeader.pch";
+				INFOPLIST_FILE = X/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSC.X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB353EF12493274700C159DC /* Build configuration list for PBXProject "X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB353F0D2493274900C159DC /* Debug */,
+				CB353F0E2493274900C159DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB353F0F2493274900C159DC /* Build configuration list for PBXNativeTarget "X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB353F102493274900C159DC /* Debug */,
+				CB353F112493274900C159DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB353EEE2493274700C159DC /* Project object */;
+}
